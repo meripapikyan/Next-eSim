@@ -1,0 +1,19 @@
+.country {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.name {
+    color: var(--black);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.cost {
+    color: var(--dove-gray);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+}

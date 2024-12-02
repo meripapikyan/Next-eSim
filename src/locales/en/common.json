@@ -1,0 +1,25 @@
+{
+  "link": "Link",
+  "title": "Title",
+  "dropDown": "Drop-down",
+  "signIn": "Sign in",
+  "signOut": "Sign out",
+  "signInToContinue": "Sign in to continue",
+  "viaEmail": "You have successfully logged in via email {email}",
+  "showAllCountries": "Show all countries",
+  "showAllPopularCountries": "Show all Popular Countries",
+  "popularCountries": "Popular countries",
+  "allCountries": "All Countries",
+  "faq": "How it works",
+  "longTitle": "Very long headline",
+  "travelSim": "Travel SIM cards with Internet connection",
+  "countriesOperators": "Countries and operators",
+  "continue": "Continue",
+  "simTitle": "eSIM cards with Internet for travel and business",
+  "findDirection": "Find Direction",
+  "writeEmail": "Type your email",
+  "issueFetchingData": "Oops! We encountered an issue fetching the data.",
+  "tryAgainLater": "Please try again later :)",
+  "operator": "Operator"
+
+}

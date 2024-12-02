@@ -1,0 +1,28 @@
+.item {
+    min-width: 250px;
+    height: 338px;
+    background-color: var(--wild-grey);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    margin: 24px 16px;
+}
+
+.block {
+    width: 162px;
+    height: 246px;
+    border: 1px solid transparent;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

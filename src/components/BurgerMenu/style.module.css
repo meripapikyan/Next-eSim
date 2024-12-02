@@ -1,0 +1,49 @@
+.button {
+    border: none;
+    outline: none;
+    background: unset;
+    margin-left: 24px;
+}
+
+.burger {
+    display: flex;
+    align-items: center;
+}
+
+.close-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.burger-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    height: 12px;
+    position: relative;
+}
+
+.burger-button span,
+.burger-button::before,
+.burger-button::after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    background-color: var(--black);
+    position: absolute;
+}
+
+.burger-button::before {
+    top: 0;
+}
+
+.burger-button span {
+    position: relative;
+    top: 4.5px;
+}
+
+.burger-button::after {
+    bottom: 0;
+}

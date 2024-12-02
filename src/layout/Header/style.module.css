@@ -1,0 +1,31 @@
+.header {
+    height: 60px;
+    background-color: var(--white);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1058px;
+    height: 100%;
+    padding: 0px 8px;
+}
+
+.logo {
+    background-color: unset;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.authorization button {
+    margin: 24px 0 34px 0;
+}

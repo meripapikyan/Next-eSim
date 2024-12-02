@@ -1,0 +1,64 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.country h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+
+.country p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.country-and-operators {
+    margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+    .country-and-operators {
+        margin-top: 32px;
+    }
+}
+
+.country-and-operators h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .country-and-operators h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.operators {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}

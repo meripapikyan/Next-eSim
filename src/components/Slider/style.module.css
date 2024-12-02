@@ -1,0 +1,12 @@
+.content {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 24px;
+    display: flex;
+    gap: 8px;
+}
+
+.content::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

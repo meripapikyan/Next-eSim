@@ -1,0 +1,38 @@
+.menu {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 100vw;
+    background: var(--medium-gray);
+    transition: all 0.2s ease;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.menu.auto {
+    overflow: auto;
+}
+
+.menu.hidden {
+    overflow: hidden;
+}
+
+.menu-open {
+    transform: translateX(0);
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 12px;
+    margin-top: 17px;
+    flex: 1;
+}
+
+.menu-content button {
+    margin-top: 30px;
+}

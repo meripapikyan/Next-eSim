@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s background ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.hovered:hover {
+    background-color: var(--silver-chalice);
+}
+
+.padding {
+    padding: 5px 6px;
+}
+
+.bordered {
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-color: var(--wild-grey);
+    padding: 10px 20px 10px 16px;
+}

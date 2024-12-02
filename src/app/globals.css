@@ -1,0 +1,39 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark-charcoal: #2E2F32;
+  --onyx: #19191A;
+  --grey: #7D7D7D;
+  --dove-gray: #666666;
+  --medium-gray: #898989;
+  --light-gray: #D9D9D9;
+  --wild-grey: #F7F7F7;
+  --sonic-silver: #747474;
+  --dim-gray: #636363;
+  --light-blue-gray: #96a0be;
+  --smoke: #E8E8E8;
+  --white-smoke: #F5F5F5;
+  --silver-chalice: #e3e3e3;
+  --anti-flash-white: #F0F0F0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--wild-grey);
+}
+
+
+main {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0px 8px;
+}
+
+
